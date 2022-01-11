@@ -1,0 +1,109 @@
+
+/*
+====== Post list style
+**/
+.post_row {
+  margin: 0 -5px;
+}
+.post_column {
+  float: left;
+  width: 33.33%;
+  padding: 0 10px;
+}
+
+.post_card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  width: 100%;
+  height: 230px;
+  padding: 5px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+.post_card:hover {
+  background-color: #6495ED;
+  cursor: pointer;
+  color: #fff;
+}
+.post_title h3 {
+  margin: 0;
+  padding: 2rem .4rem;
+}
+
+.post_title h3:first-letter {
+  text-transform: uppercase;
+}
+
+.post_body p {
+  margin: 0;
+  line-height: 1.5;
+  padding-left:.5rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.post_body p:first-letter {
+  text-transform: uppercase;
+}
+
+/**
+  ======== Post detail style
+*/
+.post_detail_title h3::first-letter {
+  text-transform: uppercase;
+}
+
+.post_detail_comment span::first-letter {
+  text-transform: uppercase;
+}
+
+.comment_block h3 {
+  margin: 0;
+  font-weight: 500;
+}
+
+.comment_block h3::first-letter {
+  text-transform: uppercase;
+}
+
+.comment_block p {
+  font-size: 14px;
+  margin-top: 0;
+  color: #8f8f8f;
+}
+
+.comment_block h5 {
+  margin-top: 0;
+  text-align: end;
+  color: #8f8f8f;
+}
+
+/**
+========= Create a post style
+*/
+.create_post {
+  width: 100%;
+}
+
+.create_post_title {
+  margin-bottom: 1rem;
+}
+
+.create_post_body {
+  margin-bottom: 1rem;
+}
+
+/**
+Responsive design
+*/
+
+@media only screen and (max-width: 600px) {
+  .post_column {
+    width: 100%;
+  }
+}
