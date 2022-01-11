@@ -29,5 +29,5 @@ URL : [http://localhost:3000/](http://localhost:3000/)
 
 ## Cloud deployment
 I used Heroku to deploy the app, please check out the following link to see the result.
-
+[https://reat-test-app.herokuapp.com/](https://reat-test-app.herokuapp.com/)
 
